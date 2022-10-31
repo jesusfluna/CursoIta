@@ -1,0 +1,16 @@
+body {
+    background-color: #f5f5f5;
+    min-height:100vh;
+    min-width:100vh;
+}
+
+.principal {
+  text-align: center;
+}
+
+.login {
+  padding-top: 10%;
+  width: 30%;
+  margin-right: 35%;
+  margin-left: 35%;
+}

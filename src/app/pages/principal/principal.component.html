@@ -1,13 +1,36 @@
-<nav class="navbar bg-light">
-    <div class="container-fluid">
+
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
       <a class="navbar-brand">
         <img src="/assets/imgs/ita.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
          Bienvenido a tu curso
       </a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" >Perfil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" >Calendario</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
+  </div>
 </nav>
 
-<p>principal works!</p>
-
-
-<app-pdf-viewer></app-pdf-viewer>
+<!-- 
+<app-pdf-viewer [ruta]="'/assets/document.pdf'"></app-pdf-viewer>
+<app-audio-viewer [ruta]="'/assets/audio.mp3'"></app-audio-viewer> 
+-->

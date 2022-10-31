@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './pages/login/login.component';
 import { PrincipalComponent } from './pages/principal/principal.component';
 import { PdfViewerComponent } from './component/pdf-viewer/pdf-viewer.component';
+import { AudioViewerComponent } from './component/audio-viewer/audio-viewer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     PrincipalComponent,
-    PdfViewerComponent
+    PdfViewerComponent,
+    AudioViewerComponent
   ],
   imports: [
     BrowserModule,
